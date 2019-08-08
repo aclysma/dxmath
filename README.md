@@ -28,10 +28,10 @@ Even if this port were complete, many people will be better served by one of the
 ## Goals
 
 * Port the C++ library to Rust as directly as possible, with no attempt to be Rust-idiomatic. 
-** This makes the porting job a bit more straightforward, and correctness should be easier to verify.
-** It will also make it easier to pull in any upstream changes.
-* An additional layer (similar to [SimpleMath](https://github.com/microsoft/DirectXTK/blob/master/Inc/SimpleMath.h)
-could be layered on top of this to make it more Rust-idiomatic.
+    * This makes the porting job a bit more straightforward, and correctness should be easier to verify.
+    * It will also make it easier to pull in any upstream changes.
+* An additional layer (similar to [SimpleMath](https://github.com/microsoft/DirectXTK/blob/master/Inc/SimpleMath.h))
+could be layered on top of this to make it more Rust-idiomatic. But that could be a separate crate.
 
 ## Conventions
 
