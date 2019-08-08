@@ -1,0 +1,6 @@
+[submodule "upstream/DirectXMath"]
+	path = upstream/DirectXMath
+	url = https://github.com/microsoft/DirectXMath.git
+[submodule "upstream/DirectXTK"]
+	path = upstream/DirectXTK
+	url = https://github.com/microsoft/DirectXTK.git
